@@ -1,5 +1,7 @@
 
 def displ_cont():
-    f = open('filename' , "r")
-    print(f.read())
+    f = open('data.txt', "r")
+    content = f.read()
+    print("content =", content)
 
+displ_cont()
